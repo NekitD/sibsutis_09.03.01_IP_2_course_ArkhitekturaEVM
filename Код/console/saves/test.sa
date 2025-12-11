@@ -1,0 +1,15 @@
+00 CPUINFO 00    ; 
+01 READ 10    ; 
+02 READ 11    ;
+03 LOAD 10    ;
+04 SUB 11    ;
+05 JNEG 14    ;
+06 STORE 12   ;
+07 WRITE 12   ;
+08 HALT 00   ;
+14 STORE 12   ;
+15 WRITE 12   ;
+16 JUMP 127   ;
+127 JUMP 20   ;
+20 HALT 00    ;
+
